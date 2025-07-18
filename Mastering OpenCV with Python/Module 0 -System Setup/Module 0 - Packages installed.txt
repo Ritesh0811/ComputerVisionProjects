@@ -1,0 +1,30 @@
+26 April 2024 -->
+
+Open Anaconda Prompt
+check python version --> python 3.9 +
+
+Create virtual env -- >
+    go to folder where you wanted to create open-cv env using cd 
+    >> python -m venv open-cv 
+    >> cd open-cv
+    
+    activate env using [we are inside open-cv folder] ->  .\Scripts\activate
+    
+    
+    .\open-cv\Scripts\activate
+    
+    
+    Now as env is activated - Install below libraries
+    >> pip install opencv-contrib-python streamlit jupyter moviepy ipykernel matplotlib
+    >> pip install pyautogui mediapipe mime   #specific for few libraries
+    
+    
+    Note - Advisible to create new kernet by closing old jupyter notebook as below -
+    >> python -m ipykernel install --user --name=opencv-env
+    
+    to shut down jupyter running -->  ctr + c
+    
+    to deactive the environment --> 
+    >>deactivate
+    
+    
